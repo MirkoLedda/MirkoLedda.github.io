@@ -14,7 +14,7 @@
   bottom: 0;
   height: auto;
   /* sticky footer fix end */
-  margin-top: 3em;
+  margin-top: 1em;
   color: $muted-text-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
@@ -26,9 +26,9 @@
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2em;
+    margin-top: 0;
     max-width: 100%;
-    padding: 0 1em 2em;
+    padding: 0 1em 1em;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -82,4 +82,14 @@
     padding-right: 10px;
     font-weight: bold;
   }
+}
+
+.page__footer-social-icons {
+  font-size: $type-size-1;
+  text-align: center;
+  color: $light-gray
+}
+
+.icon-hover:hover {
+    color: $gray;
 }

@@ -1,7 +1,55 @@
-<!--
+{% assign author = page.author | default: page.authors[0] | default: site.author %}
+{% assign author = site.data.authors[author] | default: author %}
+
+<link rel="stylesheet" href="/assets/icons/academicons/css/academicons.css"/>
+
+{% if author.email %}
   <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
-      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    <a href="mailto:{{ author.email }}">
+      <meta itemprop="email" content="{{ author.email }}" />
+      <i class="fa icon-hover fa-envelope-square" aria-hidden="true"></i>
     </a>
   </li>
--->
+{% endif %}
+
+{% if author.twitter %}
+  <li>
+    <a href="https://twitter.com/{{ author.twitter }}" itemprop="sameAs">
+      <i class="fab icon-hover fa-twitter-square" aria-hidden="true"></i>
+    </a>
+  </li>
+{% endif %}
+
+{% if author.linkedin %}
+  <li>
+    <a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs">
+      <i class="fab icon-hover fa-linkedin" aria-hidden="true"></i>
+    </a>
+  </li>
+{% endif %}
+
+{% if author.github %}
+  <li>
+    <a href="https://github.com/{{ author.github }}" itemprop="sameAs">
+      <i class="fab icon-hover fa-github" aria-hidden="true"></i>
+    </a>
+  </li>
+{% endif %}
+
+<li>
+  <a href="https://meta.stackoverflow.com/users/4639972/cagliari2005?tab=profile" itemprop="sameAs">
+    <i class="fab icon-hover fa-stack-overflow" aria-hidden="true"></i>
+  </a>
+</li>
+
+<li>
+  <a href="https://scholar.google.com/citations?user=q-GGl60AAAAJ">
+    <i class="ai icon-hover ai-google-scholar"></i>
+  </a>
+</li>
+
+<!-- <li>
+  <a href="https://www.researchgate.net/profile/Mirko_Ledda">
+    <i class="ai icon-hover ai-researchgate"></i>
+  </a>
+</li> -->
