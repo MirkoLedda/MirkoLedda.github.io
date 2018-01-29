@@ -10,4 +10,4 @@ header:
 
 I am Mirko, a PhD candidate in Integrative Genetics and Genomics developing computational methods for the analysis of large genomics data @ UC Davis.
 
-I focus on RNA secondary structures but if you are here chances are you know that already... If not click [here](/pages/about-me.html) to get to know me.
+I focus on RNA secondary structures but if you are here chances are you know that already... If not, click [here](/pages/about-me.html) to get to know me.
