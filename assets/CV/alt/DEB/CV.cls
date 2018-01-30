@@ -33,7 +33,7 @@
 \setlength\parindent{0in} % remove auto indent
 
 % Comments
-\newcommand{\comment}[1]{\footnotesize{#1}\normalsize}
+\newcommand{\comment}[1]{\small{#1}\normalsize}
 
 % Header
 \usepackage{fancyhdr}
@@ -136,7 +136,8 @@
 
 % Published articles
 \DeclareDocumentCommand\pubArticle{ m m m m m g }{
-    {\years{#1}\pubAuthors{#2}, \pubTitle{#3}, \pubJournal{#4} \pubIssue{#5}
+    {\years{#1}\pubAuthors{#2}\\
+    \textbf{\pubTitle{#3}}, \pubJournal{#4} \pubIssue{#5}
         \IfNoValueF {#6} {\pubDOI{#6}}
         \medskip
         \\
@@ -155,7 +156,9 @@
 \\}
 
 % Patents
-\newcommand{\pubPatent}[6]{\years{#1}\pubAuthors{#2}, \pubTitle{#3} - #4, \emph{#5} (issued in #6)\medskip
+\newcommand{\pubPatent}[6]{\years{#1}\pubAuthors{#2}\\
+\pubTitle{#3}\\
+#4, \emph{#5} (issued in #6)\medskip
 \\}
 
 % Talks and Posters
@@ -164,8 +167,9 @@
 \\}
 
 % Scientific and Professional experience
-\newcommand{\professional}[4]{\years{#1}\textbf{#2} \hfill #3\\
-\comment{#4}\medskip
+\newcommand{\professional}[5]{\years{#1}\textbf{#2} \hfill #3\\
+Supervisor: #4\\
+\comment{#5}\medskip
 \\}
 
 % Teaching ------
