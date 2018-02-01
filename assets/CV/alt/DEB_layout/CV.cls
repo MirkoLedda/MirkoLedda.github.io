@@ -63,6 +63,9 @@
 
 % ------ SECTION LAYOUTS ------
 % Section ------
+\newcommand{\tit}[1]{\Large\uppercase{\textbf{#1}}}
+
+
 \usepackage{titlesec}
 \titleformat
 	{\section} % command
@@ -72,11 +75,9 @@
 	{0pt} % sep
 	{
 	\vspace{-2ex}
-	\HRule{0.5mm}
 	\MakeUppercase
 	} % before-code
 	[
-	\HRule{0.5mm}
 	] % after-code
 
 % Subsection ------

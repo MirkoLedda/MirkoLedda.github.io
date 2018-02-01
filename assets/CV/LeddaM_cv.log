@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  29 JAN 2018 01:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  1 FEB 2018 13:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -93,6 +93,12 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 Package: tabto 2013/03/25  v 1.3  Another tabbing mechanism
 \CurrentLineWidth=\dimen114
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/outlines/outlines.sty
+Package: outlines 2012/1/23 1.1 Ch. Pecheur
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -522,15 +528,15 @@ Package: xparse 2017/05/13 L3 Experimental document command parser
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \experience with sig. ' m m m g ' on line 126.
+. Defining command \experience with sig. ' m m m g ' on line 129.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \pubArticle with sig. ' m m m m m g ' on line 144.
+. Defining command \pubArticle with sig. ' m m m m m g ' on line 148.
 .................................................
 )
-(./LeddaM_cv.aux)
+No file LeddaM_cv.aux.
 \openout1 = `LeddaM_cv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -547,13 +553,14 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Try loading font information for T1+fvs on input line 5.
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/bera/t1fvs.fd
 File: t1fvs.fd 2004/09/07 scalable font definitions for T1/fvs.
 )
@@ -627,8 +634,6 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 5.
 LaTeX Info: Redefining \pageref on input line 5.
 LaTeX Info: Redefining \nameref on input line 5.
-
-(./LeddaM_cv.out) (./LeddaM_cv.out)
 \@outlinefile=\write3
 \openout3 = `LeddaM_cv.out'.
 
@@ -644,349 +649,195 @@ File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 13.
 LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
-(Font)              scaled to size 12.9599pt on input line 20.
-Package marginnote Info: Margin note 1.1 is on absolute page 1
-(marginnote)              on input line 28.
-Package marginnote Info: right page because not two side mode on input line 28.
+(Font)              scaled to size 12.9599pt on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 29.
 
-LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
-(Font)              scaled to size 8.09995pt on input line 28.
-LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
-(Font)              scaled to size 8.09995pt on input line 28.
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 28.
-Package marginnote Info: Margin note 1.2 is on absolute page 1
-(marginnote)              on input line 32.
-Package marginnote Info: right page because not two side mode on input line 32.
+Overfull \hbox (3.22726pt too wide) in paragraph at lines 30--30
+[]\T1/fvs/b/n/10 Computing| 
+ []
 
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 32.
+LaTeX Font Info:    Try loading font information for TS1+fvs on input line 33.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/bera/ts1fvs.fd
+File: ts1fvs.fd 2004/09/07 scalable font definitions for TS1/fvs.
+)
+LaTeX Font Info:    Font shape `TS1/fvs/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 33.
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--35
-
+Overfull \hbox (3.84993pt too wide) in paragraph at lines 45--45
+[]\T1/fvs/m/n/10 Bioinformatics| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--35
-
+Overfull \hbox (35.99997pt too wide) in paragraph at lines 29--74
+[] 
  []
 
-Package marginnote Info: Margin note 1.3 is on absolute page 1
-(marginnote)              on input line 50.
-Package marginnote Info: right page because not two side mode on input line 50.
-
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 50.
-LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 50.
-LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
-(Font)              scaled to size 4.49997pt on input line 50.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 50.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 50.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 50.
 LaTeX Font Info:    Font shape `T1/fvs/m/it' will be
-(Font)              scaled to size 7.19995pt on input line 50.
-Package marginnote Info: Margin note 1.4 is on absolute page 1
-(marginnote)              on input line 51.
-Package marginnote Info: right page because not two side mode on input line 51.
+(Font)              scaled to size 8.99994pt on input line 102.
 
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 51.
-Package marginnote Info: Margin note 1.5 is on absolute page 1
-(marginnote)              on input line 52.
-Package marginnote Info: right page because not two side mode on input line 52.
-
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 52.
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--53
+Underfull \hbox (badness 10000) in paragraph at lines 84--109
 
  []
 
-Package marginnote Info: Margin note 1.6 is on absolute page 1
-(marginnote)              on input line 57.
-Package marginnote Info: right page because not two side mode on input line 57.
 
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 57.
-Package marginnote Info: Margin note 1.7 is on absolute page 1
-(marginnote)              on input line 58.
-Package marginnote Info: right page because not two side mode on input line 58.
+Overfull \hbox (7.62868pt too wide) in paragraph at lines 84--109
+[] 
+ []
 
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 58.
-Package marginnote Info: Margin note 1.8 is on absolute page 1
-(marginnote)              on input line 59.
-Package marginnote Info: right page because not two side mode on input line 59.
 
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 59.
-Package marginnote Info: Margin note 1.9 is on absolute page 1
-(marginnote)              on input line 60.
-Package marginnote Info: right page because not two side mode on input line 60.
-
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 60.
-Package marginnote Info: Margin note 1.10 is on absolute page 2
-(marginnote)              on input line 61.
-Package marginnote Info: right page because not two side mode on input line 61.
-
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 61.
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--62
+Underfull \hbox (badness 10000) in paragraph at lines 84--109
 
  []
 
-Package marginnote Info: right page because not two side mode on input line 66.
 
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 66.
+Underfull \hbox (badness 10000) in paragraph at lines 84--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--109
+
+ []
+
+LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
+(Font)              scaled to size 8.09995pt on input line 124.
 LaTeX Font Info:    Font shape `T1/fvs/m/sl' in size <10> not available
-(Font)              Font shape `T1/fvs/m/it' tried instead on input line 66.
+(Font)              Font shape `T1/fvs/m/it' tried instead on input line 124.
 LaTeX Font Info:    Font shape `T1/fvs/m/it' will be
-(Font)              scaled to size 8.99994pt on input line 66.
+(Font)              scaled to size 8.99994pt on input line 124.
+
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 124.
+
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package marginnote Info: Margin note 2.1 is on absolute page 2
-(marginnote)              on input line 67.
-Package marginnote Info: right page because not two side mode on input line 67.
+LaTeX Font Info:    Font shape `TS1/fvs/m/n' will be
+(Font)              scaled to size 8.09995pt on input line 124.
+LaTeX Font Info:    Font shape `T1/fvs/m/it' will be
+(Font)              scaled to size 8.09995pt on input line 124.
+LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
+(Font)              scaled to size 8.09995pt on input line 143.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 143.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 143.
 
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 67.
-Package marginnote Info: Margin note 2.2 is on absolute page 2
-(marginnote)              on input line 68.
-Package marginnote Info: right page because not two side mode on input line 68.
-
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 68.
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
 
  []
 
-Package marginnote Info: Margin note 2.3 is on absolute page 2
-(marginnote)              on input line 73.
-Package marginnote Info: right page because not two side mode on input line 73.
 
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 73.
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-
- []
-
-Package marginnote Info: Margin note 2.4 is on absolute page 2
-(marginnote)              on input line 79.
-Package marginnote Info: right page because not two side mode on input line 79.
-
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 79.
-Package marginnote Info: Margin note 2.5 is on absolute page 2
-(marginnote)              on input line 80.
-Package marginnote Info: right page because not two side mode on input line 80.
-
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 80.
-Package marginnote Info: Margin note 2.6 is on absolute page 2
-(marginnote)              on input line 81.
-Package marginnote Info: right page because not two side mode on input line 81.
-
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 81.
-Package marginnote Info: Margin note 2.7 is on absolute page 2
-(marginnote)              on input line 82.
-Package marginnote Info: right page because not two side mode on input line 82.
-
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 82.
-Package marginnote Info: Margin note 2.8 is on absolute page 2
-(marginnote)              on input line 83.
-Package marginnote Info: right page because not two side mode on input line 83.
-
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 83.
-Package marginnote Info: Margin note 2.9 is on absolute page 2
-(marginnote)              on input line 84.
-Package marginnote Info: right page because not two side mode on input line 84.
-
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 84.
-LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
-(Font)              scaled to size 5.39996pt on input line 84.
-Package marginnote Info: Margin note 2.10 is on absolute page 2
-(marginnote)              on input line 85.
-Package marginnote Info: right page because not two side mode on input line 85.
-
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 85.
-Package marginnote Info: Margin note 2.11 is on absolute page 2
-(marginnote)              on input line 86.
-Package marginnote Info: right page because not two side mode on input line 86.
-
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 86.
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--87
+Underfull \hbox (badness 10000) in paragraph at lines 156--158
 
  []
 
 LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
-(Font)              scaled to size 7.19995pt on input line 90.
-Package marginnote Info: Margin note 2.12 is on absolute page 2
-(marginnote)              on input line 92.
-Package marginnote Info: right page because not two side mode on input line 92.
+(Font)              scaled to size 7.19995pt on input line 158.
 
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 92.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 92.
-Package marginnote Info: Margin note 2.13 is on absolute page 2
-(marginnote)              on input line 93.
-Package marginnote Info: right page because not two side mode on input line 93.
-
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 93.
-LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
-(Font)              scaled to size 6.29996pt on input line 93.
-
-LaTeX Font Warning: Font shape `T1/fvs/m/sc' undefined
-(Font)              using `T1/fvs/m/n' instead on input line 93.
-
-Package marginnote Info: Margin note 2.14 is on absolute page 2
-(marginnote)              on input line 94.
-Package marginnote Info: right page because not two side mode on input line 94.
-
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 94.
-LaTeX Font Info:    Font shape `T1/fvs/m/sc' will be
-(Font)              scaled to size 6.29996pt on input line 94.
-Package marginnote Info: Margin note 2.15 is on absolute page 2
-(marginnote)              on input line 95.
-Package marginnote Info: right page because not two side mode on input line 95.
-
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 95.
-Package marginnote Info: Margin note 2.16 is on absolute page 3
-(marginnote)              on input line 96.
-Package marginnote Info: right page because not two side mode on input line 96.
-
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 96.
-Package marginnote Info: Margin note 2.17 is on absolute page 3
-(marginnote)              on input line 97.
-Package marginnote Info: right page because not two side mode on input line 97.
-
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 97.
-Package marginnote Info: Margin note 2.18 is on absolute page 3
-(marginnote)              on input line 98.
-Package marginnote Info: right page because not two side mode on input line 98.
-
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 98.
-Package marginnote Info: Margin note 2.19 is on absolute page 3
-(marginnote)              on input line 99.
-Package marginnote Info: right page because not two side mode on input line 99.
-
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 99.
-Package marginnote Info: Margin note 2.20 is on absolute page 3
-(marginnote)              on input line 100.
-Package marginnote Info: right page because not two side mode on input line 100
-.
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 100.
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--101
-
- []
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 162.
 
 [2]
-Package marginnote Info: Margin note 3.1 is on absolute page 3
-(marginnote)              on input line 112.
-Package marginnote Info: right page because not two side mode on input line 112
-.
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 112.
-Package marginnote Info: Margin note 3.2 is on absolute page 3
-(marginnote)              on input line 113.
-Package marginnote Info: right page because not two side mode on input line 113
-.
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 113.
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--114
-
- []
-
-Package marginnote Info: Margin note 3.3 is on absolute page 3
-(marginnote)              on input line 118.
-Package marginnote Info: right page because not two side mode on input line 118
-.
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 118.
-Package marginnote Info: Margin note 3.4 is on absolute page 3
-(marginnote)              on input line 119.
-Package marginnote Info: right page because not two side mode on input line 119
-.
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 119.
-Package marginnote Info: Margin note 3.5 is on absolute page 3
-(marginnote)              on input line 120.
-Package marginnote Info: right page because not two side mode on input line 120
-.
-Package marginnote Info: xpos seems to be 81.94394pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 120.
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--121
-
- []
-
 LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
-(Font)              scaled to size 12.9599pt on input line 128.
+(Font)              scaled to size 5.39996pt on input line 184.
+LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
+(Font)              scaled to size 4.49997pt on input line 184.
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--194
+
+ []
+
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 194.
+
+[3]
+LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
+(Font)              scaled to size 6.29996pt on input line 200.
+
+
+LaTeX Font Warning: Font shape `T1/fvs/m/sc' undefined
+(Font)              using `T1/fvs/m/n' instead on input line 200.
+
+LaTeX Font Info:    Font shape `T1/fvs/m/sc' will be
+(Font)              scaled to size 6.29996pt on input line 201.
+
+Overfull \hbox (4.49123pt too wide) in paragraph at lines 199--208
+\T1/fvs/m/n/10 Acute Ef-fects of sin-gle in-ges-tion of TRPV1, TRPA1 and TRPM8 
+ag-o-nists on the en-er-getic metabolism
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--208
+
+ []
+
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 221.
+
+[4]
+LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
+(Font)              scaled to size 12.9599pt on input line 239.
+
+
+Package lastpage Warning: Rerun to get the references right on input line 261.
+
 
 AED: lastpage setting LastPage
-[3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 150.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 150.
- (./LeddaM_cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 150.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 150.
-Package rerunfilecheck Info: File `LeddaM_cv.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 261.
+
+[5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 261.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 261.
+ (./LeddaM_cv.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 261.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 261.
+
+
+Package rerunfilecheck Warning: File `LeddaM_cv.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `LeddaM_cv.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 150.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 261.
  ) 
 Here is how much of TeX's memory you used:
- 14782 strings out of 492995
- 259038 string characters out of 6132704
- 337728 words of memory out of 5000000
- 18214 multiletter control sequences out of 15000+600000
- 68184 words of font info for 49 fonts, out of 8000000 for 9000
+ 14837 strings out of 492995
+ 259747 string characters out of 6132704
+ 334401 words of memory out of 5000000
+ 18262 multiletter control sequences out of 15000+600000
+ 64880 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,12n,45p,10407b,323s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,11n,45p,10407b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive
 /2017/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/local/texlive/2017/te
 xmf-dist/fonts/type1/public/bera/fvsb8a.pfb></usr/local/texlive/2017/texmf-dist
 /fonts/type1/public/bera/fvsr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
 ype1/public/bera/fvsro8a.pfb>
-Output written on LeddaM_cv.pdf (3 pages, 51456 bytes).
+Output written on LeddaM_cv.pdf (5 pages, 54595 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 500000)
+ 67 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -112,7 +112,6 @@
 \hypersetup{
 pdfsubject = {Curriculum Vitae},
 	pdfkeywords = {big data, genomics, statistics, mathematics, programming, biochemistry, engineering, machine learning}
-	pdfpagemode = UseNone
 }
 % Education ------
 \newcommand{\edu}[3]{\years{#1}\textbf{#2}\\
