@@ -1,88 +1,129 @@
 
-% Load configs
+% ------ MAIN CONFIGS ------
 \documentclass{CV}
 
+% ------ USER CONFIGS ------
+\newcommand{\username}{Mirko Ledda}  % Enter your first name
+\newcommand{\keywords}{big data, genomics, statistics, mathematics, programming, biochemistry, engineering, machine learning}  % Enter your keywords
+
+% PDF metadata and hyperlinks ----------
+\usepackage[bookmarks, colorlinks, breaklinks]{hyperref} 
+\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=MidnightBlue} 
+\newcommand{\mail}[1]{\href{mailto:#1}{#1}}
+
+\hypersetup{
+	pdftitle={\username{} - CV},
+	pdfauthor={\username{}}
+	pdfsubject = {Curriculum Vitae},
+	pdfkeywords = {\keywords{}}
+}
+
+
+% ------ DOCUMENT BEGINS HERE ------
 \begin{document}
+
+
+
 
 % ------ HEADER ------
 \begin{center}
-{\textbf{\LARGE Mirko LEDDA}}\\
-Sharon Aviran Lab\\
-Biomedical Engineering \& Genome Center\\
-University of California, Davis, USA\\
-Phone: \texttt{(510) 717-4889}\\
-Email: \mail{maledda@ucdavis.edu}\\
-Webpage:\href{https://mirkoledda.github.io}{~https://mirkoledda.github.io}\\
+	{\textbf{\LARGE Mirko LEDDA}}\\
+	Sharon Aviran Lab\\
+	Biomedical Engineering \& Genome Center\\
+	University of California, Davis, USA\\
+	Phone: \texttt{(510) 717-4889}\\
+	Email: \mail{maledda@ucdavis.edu}\\
+	Webpage:\href{https://mirkoledda.github.io}{~https://mirkoledda.github.io}\\
 \end{center}
-\medskip
-%\medskip
+~
+
+
+
+
 %\section*{Objectives}
+%\begin{center}
 %\begin{minipage}[c]{0.90\textwidth}
 %To obtain a 3-month industry internship in computational biology as part of the requirements of the Designated Emphasis in Biotechnology graduate program. Have 5 years of industry experience. Result oriented and thrives in large multinational teams and interdisciplinary research environments.
 %\end{minipage}
 %\end{center}
-%\medskip
-%\medskip
+%~
+
+
+
 
 % ------ SKILLS ------
 \section*{Relevant skills}
 \begin{tabular}{p{0.12\textwidth} p{0.14\textwidth} p{0.74\textwidth}}
-\textbf{Computing} & \raggedright Programming &
-\begin{itemize}\setlength\itemsep{-0.5em}
-\vspace{-1.8em}
-\item Python, R, Matlab (+ some C and Perl).
-\item Software development and release.
-\item Shell scripting and analysis on high-performance clusters.
-\end{itemize}\\
-& Data science &
-\begin{itemize}\setlength\itemsep{-0.5em}
-\vspace{-1.8em}
-\item Machine Learning.
-\item Statistics, algebra, calculus and probability theory.
-\item Algorithms and statistical methods development.
-\item Big data management and analysis.
-\end{itemize}\\
-\textbf{Biology} & Bioinformatics &
-\begin{itemize}\setlength\itemsep{-0.5em}
-\vspace{-1.8em}
-\item High-throughput sequencing (incl. library prep).
-\item Genomics, transcriptomics, metabolomics and GWAS.
-\item Common bioinformatics tools/pipelines.
-\end{itemize}\\
-& Engineering &
-\begin{itemize}\setlength\itemsep{-0.5em}
-\vspace{-1.8em}
-\item Receptors biochemistry.
-\item Molecular, structural and cell biology.
-\item Bioprocesses and bioreactors.
-\end{itemize}\\
-\textbf{Business} & Management &
-\begin{itemize}\setlength\itemsep{-0.5em}
-\vspace{-1.8em}
-\item Project management and team building.
-\item Effective oral and written communication.
-\item Teaching, consulting and mentoring.
-\end{itemize}\\
-& Processes &
-\begin{itemize}\setlength\itemsep{-0.5em}
-\vspace{-1.8em}
-\item Intellectual properties.
-\item Biological lab management.
-\item Safety and quality control (incl. MP, SOP and GLP).
-\end{itemize}
+\textbf{Computing} & 
+	Programming &
+		\begin{itemize}\setlength\itemsep{-0.5em}
+		\vspace{-1.8em}
+		\item Python, R, Matlab (+ some C and Perl).
+		\item Software development and release.
+		\item Shell scripting and analysis on high-performance clusters.
+		\end{itemize}\\
+& 
+	Data science &
+		\begin{itemize}\setlength\itemsep{-0.5em}
+		\vspace{-1.8em}
+		\item Machine Learning.
+		\item Statistics, algebra, calculus and probability theory.
+		\item Algorithms and statistical methods development.
+		\item Big data management and analysis.
+		\end{itemize}\\
+		
+\textbf{Biology} & 
+	Bioinformatics &
+		\begin{itemize}\setlength\itemsep{-0.5em}
+		\vspace{-1.8em}
+		\item High-throughput sequencing (incl. library prep).
+		\item Genomics, transcriptomics, metabolomics and GWAS.
+		\item Common bioinformatics tools/pipelines.
+		\end{itemize}\\
+& 
+	Engineering &
+		\begin{itemize}\setlength\itemsep{-0.5em}
+		\vspace{-1.8em}
+		\item Receptors biochemistry.
+		\item Molecular, structural and cell biology.
+		\item Bioprocesses and bioreactors.
+		\end{itemize}\\
+		
+\textbf{Business} & 
+	Management &
+		\begin{itemize}\setlength\itemsep{-0.5em}
+		\vspace{-1.8em}
+		\item Project management and team building.
+		\item Effective oral and written communication.
+		\item Teaching, consulting and mentoring.
+		\end{itemize}\\
+& 
+	Processes &
+		\begin{itemize}\setlength\itemsep{-0.5em}
+		\vspace{-1.8em}
+		\item Intellectual properties.
+		\item Biological lab management.
+		\item Safety and quality control (incl. MP, SOP and GLP).
+		\end{itemize}
 \end{tabular}
+
+
+
 
 %% ------ AREAS OF SPECIALIZATION ------
 %\section*{Areas of specialization}
-%\centerline{Genetics - Genomics - Computational Biology - Structural Biology - Molecular Biology}
-%\centerline{Bioinformatics - Statistics - Machine Learning - Software Development}
-%~
+%\begin{center}
+%	\centerline{Genetics - Genomics - Computational Biology - Structural Biology - Molecular Biology}
+%	\centerline{Bioinformatics - Statistics - Machine Learning - Software Development}
+%\end{center}
+
+
+
 
 % ------ EDUCATION ------
-% \edu{year}{degree}{institution}
 \section*{Education}
 \textbf{Ph.D. in  Integrative Genetics and Genomics with Emphasis in Biotechnology (DEB)}\\
-University of California at Davis, CA, USA \hfill Expected graduation in Early 2019\\
+University of California at Davis, CA, USA \hfill \years{Expected graduation in Early 2019}\\
 ~\\
 \begin{tabular}{lcl}
     Thesis title&:&Hairpin in a haystack: structure-guided search for functional RNA elements\\
@@ -90,11 +131,13 @@ University of California at Davis, CA, USA \hfill Expected graduation in Early 2
     DEB advisor&:& Dr. Judith A. Kjelstrom, director, UC Davis Biotechnology Program\\
 \end{tabular}\\
 ~\\
-~\\
-\medskip
+
+%\vspace{-1.5em}
 %\begin{footnotesize}
 %*The \href{www.deb.ucdavis.edu}{DEB graduate program} is an inter-graduate group program involving faculty and students from 29 STEM disciplines. It is focused on providing cross-disciplinary training in critical areas of biomolecular research, promoting interdisciplinary team science, bioethics, entrepreneurship and professionalism as well as coordinating training in a biotechnology or life science company.
 %\end{footnotesize}\\
+
+\vspace{-0.5em}
 \textbf{B.Sc. in Life Sciences with Emphasis in Biotechnology} \hfill \years{2008}\\
 University of Applied Sciences (HES-SO), Sion, Switzerland\\
 ~\\
@@ -104,61 +147,72 @@ University of Applied Sciences (HES-SO), Sion, Switzerland\\
     &&~~~~~~Sciences (HES-SO), Sion, Switzerland\\
     && Prof. Anna Maria Puglia, Dept. of Biological, Chemical and Pharmaceutical\\
     && ~~~~~~Sciences and Technologies, University of Palermo, Italy\\
-\end{tabular}\\
-\vspace{1em}
+\end{tabular}
+~\\
+
+
+
 
 % ------ SCIENTIFIC AND PROFESSIONAL EXPERIENCE ------
-% \professional{year}{position}{institution}{description}
+% \professional{year}{position}{institution}{supervisor}{description}
 \section*{Research/Work experience}
 \professional{2014-Current}{Ph.D. researcher}{UC Davis, CA}{Prof. Sharon Aviran}{
 Computational and statistical methods development for nucleic acid structures. My contributions include:
-\begin{itemize}\setlength\itemsep{0em}
-\item Characterized the statistical properties of RNA structure profiling data.
-\item Contributed to, and developed all the statistical bases and strategies for, \href{https://github.com/AviranLab/RNAprob}{\emph{RNAprob}}, a tool for data-directed RNA secondary structure prediction using probabilistic modeling.
-\item Conceived and developed \href{https://github.com/AviranLab/patteRNA}{\emph{patteRNA}}, a Machine Learning algorithm for the rapid mining of RNA secondary structure motifs from transcriptome-wide structure profiling data .
-\item Mentored new lab members and undergraduate summer students.
-\item Acting as lab manager and lab safety officer.
-\item Actively consulted in multiple research projects to tackle complex problems.
-\end{itemize}~
-\vspace{-12pt}
+	\begin{itemize}\setlength\itemsep{0em}
+	\item Characterized the statistical properties of RNA structure profiling data.
+	\item Contributed to, and developed all the statistical bases and strategies for, \href{https://github.com/AviranLab/RNAprob}{\emph{RNAprob}}, a tool for data-directed RNA secondary structure prediction using probabilistic modeling.
+	\item Conceived and developed \href{https://github.com/AviranLab/patteRNA}{\emph{patteRNA}}, a Machine Learning algorithm for the rapid mining of RNA secondary structure motifs from transcriptome-wide structure profiling data .
+	\item Mentored new lab members and undergraduate summer students.
+	\item Acting as lab manager and lab safety officer.
+	\item Actively consulted in multiple research projects to tackle complex problems.
+	\end{itemize}~
 }
+\vspace{-25pt}
+
 \professional{2009-2014}{Research Assistant}{Nestl\'e Research Center, Lausanne, Switzerland}{Prof. Johannes le Coutre}{
 Project and Lab manager for research on taste perception physiology. My contributions include:
-\begin{itemize}\setlength\itemsep{0em}
-\item Performed genome-wide association studies (GWAS) of human metabolism and taste perception;
-\begin{itemize}\setlength\itemsep{-0.2em}
-\item Discovered and patented new biomarkers of the health-status of the gastrointestinal tract.
-\item Developed statistical methods to analyze human taste phenotypic data.
-\item Discovered new genetic drivers of bitter taste perception, most notably for caffeine.
-\end{itemize}
-\item Established the single cell Ca$^{2+}$-imaging technique in the lab and developed computational tools for automated image data analysis.
-\item Functionalized and \emph{in vitro} validated of several human, feline and rat GPCRs/TRP channels in mammalian cells (HEK, Hela, CHO, Chem-1 and primary rat DRG neurons).
-\item Performed receptor-interaction studies using siRNAs and co-expression approaches.
-\item Developed a method for the expression and purification of water-insoluble proteins in \emph{E. coli}.
-\item Managed research projects and activities. Produced deliverable on time.
-\item Mentored students and interns.
-\item Acted as Lab security officer, supervised supplies and ensured proper functioning of lab equipment.
-\end{itemize}~
-\vspace{-12pt}
+	\begin{itemize}\setlength\itemsep{0em}
+	\item Performed genome-wide association studies (GWAS) of human metabolism and taste perception;
+		\begin{itemize}\setlength\itemsep{-0.2em}
+		\item Discovered and patented new biomarkers of the health-status of the gastrointestinal tract.
+		\item Developed statistical methods to analyze human taste phenotypic data.
+		\item Discovered new genetic drivers of bitter taste perception, most notably for caffeine.
+		\end{itemize}
+	\item Established the single cell Ca$^{2+}$-imaging technique in the lab and developed computational tools for automated image data analysis.
+	\item Functionalized and \emph{in vitro} validated of several human, feline and rat GPCRs/TRP channels in mammalian cells (HEK, Hela, CHO, Chem-1 and primary rat DRG neurons).
+	\item Performed receptor-interaction studies using siRNAs and co-expression approaches.
+	\item Developed a method for the expression and purification of water-insoluble proteins in \emph{E. coli}.
+	\item Managed research projects and activities. Produced deliverable on time.
+	\item Mentored students and interns.
+	\item Acted as Lab security officer, supervised supplies and ensured proper functioning of lab equipment.
+	\end{itemize}~
 }
+\vspace{-25pt}
+
 \professional{2008-2014}{Soldier specialist in biological weapons}{Swiss Army, Labor Spiez, Switzerland}{Dr. Christian Beuret}{
-\vspace{-12pt}
-\begin{itemize}\setlength\itemsep{0em}
-\item Development and validation of laboratory techniques for rapid identification of pathogenic bacteria, viruses and toxins.
-\item Team leader for research tasks.
-\end{itemize}~
-\vspace{-20pt}
+	\vspace{-1.5em}
+	\begin{itemize}\setlength\itemsep{0em}
+	\item Development and validation of laboratory techniques for rapid identification of pathogenic bacteria, viruses and toxins.
+	\item Team leader for research tasks.
+	\end{itemize}~
 }
+\vspace{-25pt}
+
+
+
 
 % ------ TEACHING ------
-% \teaching{quarter + year}{position}{course name}{description}
+% \teaching{year}{position}{course name}{IOR}{duties}{Opt! evaluation}
 \section*{Teaching experience}
 \teaching{2018}{Guest Lecturer}{Quantitative Genetics and Selection Theory (PLS298), UC Davis}{Prof. Steve Knapp}{Graduate}{Gave a 1h30 lecture on fundamental concepts in Machine Learning.}{Very positive oral feedback from the students.}
 \teaching{2017}{Lecturer}{Machine Learning Workshop for the Plant Sciences Dept., UC Davis}{Mirko Ledda}{Undergraduate, Graduate and Professor}{Organized a 4h workshop on Machine Learning for the Ross-Ibarra, Knapp and Runcie Labs.}{Very positive oral feedback. Prof. Ross-Ibarra twitted about it \href{https://twitter.com/jrossibarra/status/940697831395831808}{here}.}
-\section*{Teaching experience \footnotesize\text{(continued)}}
 \teaching{2017}{Guest Lecturer}{Topics in BME: Computational Genomics (BIM189C), UC Davis}{Prof. Sharon Aviran}{Upper level undergraduate}{Gave two 2h lectures on fundamental concepts in Machine Learning.}{4.7/5 - 67\% excellent and 33\% very good ratings.}
+\section*{Teaching experience \footnotesize\text{(continued)}}
 \teaching{2016}{Teaching assistant}{Quantitative Genetics and Selection Theory (PLS298), UC Davis}{Prof. Steve Knapp}{Graduate}{Taught R programming and the mathematical bases of selection theory in lab sessions.}{Very positive oral feedback from the students.}
-\teachingnofeed{2015}{Course development}{Quantitative Genetics and Selection Theory (PLS298), UC Davis}{Prof. Steve Knapp}{Graduate}{Prepared the teaching material for this newly proposed class.}
+\teaching{2015}{Course development}{Quantitative Genetics and Selection Theory (PLS298), UC Davis}{Prof. Steve Knapp}{Graduate}{Prepared the teaching material for this newly proposed class.}
+
+
+
 
 % ------ AWARDS ------
 % \award{year}{name}{institution}{description}
@@ -166,12 +220,17 @@ Project and Lab manager for research on taste perception physiology. My contribu
 \award{2017}{UC Davis Graduate Student Travel Award}{UC Davis}{Competitive award to cover the cost to attend, as a speaker, the \emph{2017 [BC]2 Basel Computational Biology Conference} in Basel, Switzerland.}
 \award{2016}{Registration Bursary}{Wellcome Genome Campus Scientific Conferences}{Competitive award to cover the cost to attend, as a speaker, the \emph{2016 Computational RNA Biology Conference} in Cambridge, UK.}
 \award{2016}{Summer Graduate Student Researcher Award}{UC Davis}{3-months support for graduate research in engineering, computer science, and disciplines with engineering-related applications and methods.}
-\vspace{-0.2em}
+
+
+
+
 % MEMBERSHIPS ----
-% \member{year}{name}{description}
+% \member{year}{institution}{title}
 \section*{Membership}
 \member{2018}{The RNA Society}{Student member}
-\vspace{-0.5em}
+
+
+
 
 % ------ SCIENCE OUTREACH ------
 % \outreach{year}{event}{location}{description}
@@ -185,15 +244,21 @@ Project and Lab manager for research on taste perception physiology. My contribu
 \outreach{2015}{Volunteer for "Science vs Fiction"}{Senior Center, Davis, CA, USA}{Presented common scientific misconceptions followed by an open discussion with seniors.}
 \outreach{2015}{Mentor for the IGG program}{UC Davis}{Mentor for all incoming international IGG students and mentor for a $1^{\text{st}}$ year IGG student.}
 
+
+
+
 % ------ TALKS AND POSTERS ------
-% \pubTalk{year}{authors}{title}{conference}{location}{date}{description}
+% \pubTalk{year}{authors}{title}{conference}{venue}{date}{type - length}
 \section*{Presentations and Posters}
 \pubTalk{2017}{\textbf{Ledda M.} and Aviran S.}{patteRNA: Transcriptome-wide search for functional RNA elements via structural data signatures}{[BC]2 Basel Computational Biology Conference}{Congress Center, Basel, Switzerland}{September 13-$15^\text{th}$}{Speaker - 20min talk}
 \pubTalk{2017}{\textbf{Ledda M.} and Aviran S.}{Transcriptome-wide search for functional RNA elements via structural data signatures}{Genome Research Day}{23andMe, Mountain View, CA}{June 1st}{Poster}
 \pubTalk{2016}{\textbf{Ledda M.}, Deng F., Vaziri S., and Aviran S.}{Data-directed RNA secondary structure prediction using probabilistic modeling}{Computational RNA Biology Conference}{Wellcome Trust, Cambridge, UK}{October 17-$19^\text{th}$}{Speaker - 15min talk}
 
+
+
+
 % ------ PUBLICATIONS ------
-% \pubArticle{year}{authors}{title}{journal}{issue}{OPTIONAL doi}
+% \pubArticle{year}{authors}{title}{journal}{issue/state}{OPTIONAL doi}
 \section*{Publications \footnotesize\text{( * indicates co-authorship)}}\medskip
 % Published articles ------
 \pubArticle{2018}{\textbf{Ledda M.} and Aviran S.}{patteRNA: transcriptome-wide search for functional RNA elements via structural data signatures}{Genome Biology}{in press}
@@ -206,25 +271,28 @@ Project and Lab manager for research on taste perception physiology. My contribu
 \pubArticle{2013}{Montoliu I.*, Genick U.*, \textbf{Ledda M.}, Collino S., Martin F.P., Le Coutre J. and Rezzi S.}{Current status on genome-metabolome-wide associations: An opportunity in nutrition research}{Genes and Nutrition}{8: 19-27}{10.1007/s12263-012-0313-7}
 \pubArticle{2011}{Genick U.K., Kutalik Z., \textbf{Ledda M.}, Souza Destito M.C., Souza M.M., Cirillo C. a., Godinot N., Martin N., Morya E., Sameshima K., Bergmann S., le Coutre J.}{Sensitivity of genome-wide-association signals to phenotyping strategy: The PROP-TAS2R38 taste association as a benchmark}{PLoS One}{6(11)}{10.1371/journal.pone.0027745}
 
-% Submitted / In prep articles ------
-% \pubRev{year}{authors}{title}{journal}
-% \pubSub{year}{authors}{title}{journal}
-% \pubPrep{year}{authors}{title}{journal}
 
-% \subsection*{Manuscripts submitted / in-preparation}
+% Submitted / In prep articles ------
+%\subsection*{Manuscripts submitted / in-preparation}
+
+
+
 
 % ------ PATENTS ------
-% \pubPatent{year filed}{inventors}{title}{patent office}{patent #}{year issued}
+% \pubPatent{inventors}{title}
 \section*{Patents}
-\pubPatent{2014}{Genick U.K., \textbf{Ledda M.}, Montoliu I., Le Coutre J., Rezzi S., Collino S., Martin F.P., Da Silva L.}{Genetic and urine-derived markers of human metabolic and gut microbial states}
-\vspace{-1em}
-\begin{center}
-\begin{tabular}{ll}
-European Patent Office & \textit{EP2687845 A1} (issued in 2014)\\
-US Patent Office & \textit{US Patent 20,150,160,191} (Issued in 2015)
-\end{tabular}
-\end{center}
-\medskip
+\pubPatent{Genick U.K., \textbf{Ledda M.}, Montoliu I., Le Coutre J., Rezzi S., Collino S., Martin F.P., Da Silva L.}{Genetic and urine-derived markers of human metabolic and gut microbial states}
+\vspace{-1.5em}
+	\begin{center}
+	\begin{tabular}{ll}
+	European Patent Office & \textit{EP2687845 A1} (issued in 2014)\\
+	US Patent Office & \textit{US Patent 20,150,160,191} (Issued in 2015)
+	\end{tabular}
+	\end{center}
+~
+
+
+
 
 % ------ LANGUAGES ------
 \section*{Hobbies/Interests}
@@ -235,27 +303,15 @@ US Patent Office & \textit{US Patent 20,150,160,191} (Issued in 2015)
 \end{itemize}
 ~
 
+
+
+
+% ------ REFERENCES ------
 \begin{center}
 \Large \textbf{References upon request}
 \end{center}
 
-% ------ LANGUAGES ------
-%\section*{Languages}
-%\begin{multicols}{3}
-%\begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$},leftmargin=*]
-%\item French: Mother Tongue
-%\item Italian: Mother Tongue
-%\item English: Fluent
-%\end{itemize}
-%\end{multicols}
-%~
 
-% ------ COMPUTER SKILLS ------
-%\section*{Programming Languages}
-%\centerline{Python - R - Matlab - Perl - Bourne Shell}
-%~
-%\section*{Computer skills}
-%\emph{Programming} \tab{Python - R - Matlab - Perl - Bourne Shell}\\
-%\emph{Typesetting} \tab{LaTex - Markdown - Microsoft Office}\\
+
 
 \end{document}
