@@ -2,26 +2,6 @@
 %   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-% Here custom commands usages:
-% ====================================
-% education		\edu{year}{degree}{school}
-%
-% experience		\experience{year}{position}{location}
-% Two experience	\experienceDouble{year}{position}{location1}{location2}
-%
-% Published articles \pubArticle{year}{authors}{title}{journal}{issue}{doi}
-% Submitted articles	\pubSub{year}{authors}{title}{journal}
-% In-prep articles	\pubPrep{year}{authors}{title}{journal}
-% In-review articles \pubRev{year}{authors}{title}{journal}
-% Patents			\pubPatent{year}{authors}{title}{office}{patent ID}{issue date}
-% Talks and Posters	\pubTalk{year}{authors}{title}{conference}{venue + date}{comments}
-%
-% Prof experience	\professional{year}{position}{location}{comments}
-% Teaching		\teaching{year}{position}{class}{comments}
-% Outreach		\outreach{year}{event}{location}{comments}
-% Awards			\award{year}{title}{location}{comments}
-% Membership		\member{year}{society}{comments}
-
 \LoadClass{article}
 
 % ---------- PACKAGES ----------

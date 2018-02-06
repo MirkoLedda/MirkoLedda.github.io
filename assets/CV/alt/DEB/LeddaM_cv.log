@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  4 FEB 2018 14:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  5 FEB 2018 16:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -405,12 +405,12 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \teaching with sig. ' m m m m m m g ' on line 134.
+. Defining command \teaching with sig. ' m m m m m m g ' on line 114.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \pubArticle with sig. ' m m m m m g ' on line 172.
+. Defining command \pubArticle with sig. ' m m m m m g ' on line 152.
 .................................................
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -820,7 +820,7 @@ ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive
 xmf-dist/fonts/type1/public/bera/fvsb8a.pfb></usr/local/texlive/2017/texmf-dist
 /fonts/type1/public/bera/fvsr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
 ype1/public/bera/fvsro8a.pfb>
-Output written on LeddaM_cv.pdf (5 pages, 55413 bytes).
+Output written on LeddaM_cv.pdf (5 pages, 55408 bytes).
 PDF statistics:
  68 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream
