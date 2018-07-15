@@ -10,7 +10,7 @@
 
 % ---------- DOCUMENT LAYOUT ----------
 \usepackage{geometry} 
-\geometry{a4paper, textwidth=6in, textheight=10in, marginparsep=7pt, marginparwidth=1in}
+\geometry{a4paper, textwidth=6.8in, textheight=10in}
 \setlength\parindent{0in} % remove auto indent
 
 % Comments
@@ -59,7 +59,7 @@
 	\MakeUppercase
 	} % before-code
 	[
-	%\HRule{0.5mm}
+	\HRule{0.5mm}
 	] % after-code
 
 % Subsection ------
@@ -89,7 +89,7 @@
 \newcommand{\professional}[5]{
 	\textbf{#2} - #3 \hfill \years{#1}\\
 	Supervisor: #4\\
-	\comment{#5}\medskip
+	#5\medskip
 \\}
 
 % Teaching ------
@@ -97,17 +97,16 @@
     	\IfNoValueT {#7} {
 		\textbf{#2} - #3 \hfill \years{#1}\\
 		\comment{
-		IOR: #4\\
-		Level: #5\\
+		IOR: #4 \hfill Level: #5\\
 		Duties: #6}
 	}
 	\IfNoValueF {#7} {
 		\textbf{#2} - #3 \hfill \years{#1}\\
 		\comment{
-		IOR: #4\\
-		Level: #5\\
-		Duties: #6\\
-		Evaluation: #7}
+		IOR: #4 \hfill Level: #5\\
+		Duties: #6}
+%		Duties: #6\\
+%		Evaluation: #7}
 	}
 	\medskip
 	~
@@ -126,9 +125,11 @@
 
 % Outreach ------
 \newcommand{\outreach}[4]{
-	\textbf{#2} - #3 \hfill \years{#1}\\
-	\comment{#4}\medskip
-\\}
+	
+		\IfNoValueT {#4} {\textbf{#2} - #3 \hfill \years{#1} \smallskip}
+		\IfNoValueF {#4} {\textbf{#2} - #3 \hfill \years{#1} \\ 
+								   \comment{#4}}
+}
 
 % Talks and Posters ------
 \newcommand{\pubTalk}[7]{
@@ -144,11 +145,14 @@
 \newcommand{\pubDOI}[1]{\href{http://dx.doi.org/#1}{\scriptsize\textsc{[doi]}}}
 
 \DeclareDocumentCommand\pubArticle{ m m m m m g }{
-    \pubAuthors{#2} (\years{#1})\\
-    \pubTitle{#3}, \pubJournal{#4} \pubIssue{#5}
+    \pubAuthors{#2} (\years{#1}) \pubTitle{#3}, \pubJournal{#4} \pubIssue{#5}
         \IfNoValueF {#6} {\pubDOI{#6}}
-    \medskip
-    \\
+\medskip
+\\\\
+%    \medskip
+%    \medskip
+%    ~
+%    \\
 }
 
 % Patents ------
