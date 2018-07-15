@@ -89,53 +89,40 @@
 \newcommand{\professional}[5]{
 	\textbf{#2} - #3 \hfill \years{#1}\\
 	Supervisor: #4\\
-	#5\medskip
-\\}
+	#5
+\\\\}
 
 % Teaching ------
-\DeclareDocumentCommand\teaching{ m m m m m m g }{
-    	\IfNoValueT {#7} {
+\DeclareDocumentCommand\teaching{ m m m m m m }{
 		\textbf{#2} - #3 \hfill \years{#1}\\
 		\comment{
-		IOR: #4 \hfill Level: #5\\
+		IOR: #4, Level: #5\\
 		Duties: #6}
-	}
-	\IfNoValueF {#7} {
-		\textbf{#2} - #3 \hfill \years{#1}\\
-		\comment{
-		IOR: #4 \hfill Level: #5\\
-		Duties: #6}
-%		Duties: #6\\
-%		Evaluation: #7}
-	}
-	\medskip
-	~
-\\}
+\\\\}
 
 % Award ------
 \newcommand{\award}[4]{
 	\textbf{#2} - #3 \hfill \years{#1}\\
-	\comment{#4}\medskip
-\\}
+	\comment{#4}
+\\\\}
 
 % Membership ------
 \newcommand{\member}[3]{
-	\textbf{#3} - #2 \hfill \years{#1}\medskip
+	\textbf{#3} - #2 \hfill \years{#1}
+	\medskip
 \\}
 
 % Outreach ------
-\newcommand{\outreach}[4]{
-	
-		\IfNoValueT {#4} {\textbf{#2} - #3 \hfill \years{#1} \smallskip}
-		\IfNoValueF {#4} {\textbf{#2} - #3 \hfill \years{#1} \\ 
-								   \comment{#4}}
-}
+\newcommand{\outreach}[3]{
+	\textbf{#2} - #3 \hfill \years{#1}
+	\medskip
+\\}
 
 % Talks and Posters ------
 \newcommand{\pubTalk}[7]{
 	\textbf{#4} - #5 \hfill \years{#1}\\
-	\pubAuthors{#2}, #3. \hfill \emph{#7} \medskip
-\\}
+	\pubAuthors{#2}, #3. \hfill \emph{#7}
+\\\\}
 
 % Publications ------
 \newcommand{\pubAuthors}[1]{#1}
@@ -147,16 +134,8 @@
 \DeclareDocumentCommand\pubArticle{ m m m m m g }{
     \pubAuthors{#2} (\years{#1}) \pubTitle{#3}, \pubJournal{#4} \pubIssue{#5}
         \IfNoValueF {#6} {\pubDOI{#6}}
-\medskip
-\\\\
-%    \medskip
-%    \medskip
-%    ~
-%    \\
-}
+\\\\}
 
 % Patents ------
 \newcommand{\pubPatent}[2]{
-	\pubAuthors{#1}\\
-	\pubTitle{#2}
-\\}
+	\pubAuthors{#1}, \pubTitle{#2}}
