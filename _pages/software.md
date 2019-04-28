@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: splash
 title: "Software"
 permalink: /pages/software.html
 author_profile: false

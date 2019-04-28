@@ -1,6 +1,7 @@
 ---
-layout: single
-author_profile: True
+layout: splash
+author_profile: false
+classes: wide
 title: "About me"
 permalink: /pages/about-me.html
 ---
