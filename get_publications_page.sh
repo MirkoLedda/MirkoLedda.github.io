@@ -11,4 +11,4 @@ sed 's/_pages/{{ site.baseurl }}\/assets\/bib/g' _pages/publications_bib.html > 
 rm _pages/publications2.html
 mv _pages/publications_bib2.html _pages/publications_bib.html
 mv _pages/publications_bib.html assets/bib/publications_bib.html
-rm bibtex2html*
+rm bib2html*
