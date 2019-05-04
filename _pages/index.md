@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: splash
 title: "Hello there !"
 author_profile: false
 permalink: /index.html
