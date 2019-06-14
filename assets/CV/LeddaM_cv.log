@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.4.10)  12 MAY 2019 19:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  14 JUN 2019 10:12
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **LeddaM_cv.tex
 (./LeddaM_cv.tex
@@ -97,10 +96,10 @@ Package: tabto 2018/12/28  v 1.4  Another tabbing mechanism
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2019-04-06 L3 programming layer (loader) 
+Package: expl3 2019-05-07 L3 programming layer (loader) 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2019-04-06 L3 programming layer (code)
+Package: expl3 2019-05-07 L3 programming layer (code)
 \c_max_int=\count99
 \l_tmpa_int=\count100
 \l_tmpb_int=\count101
@@ -254,8 +253,9 @@ Package: expl3 2019-04-06 L3 programming layer (code)
 (/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2019-04-06 v L3 Experimental driver: PDF mode
 \l__driver_color_stack_int=\count185
+\l__driver_pdf_tmp_box=\box72
 ))
-Package: xparse 2019-03-05 L3 Experimental document command parser
+Package: xparse 2019-05-03 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count186
 \g__xparse_grabber_int=\count187
 \l__xparse_m_args_int=\count188
@@ -516,7 +516,7 @@ File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
 (/usr/local/texlive/2019/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box72
+\ttl@box=\box73
 \beforetitleunit=\skip61
 \aftertitleunit=\skip62
 \ttl@plus=\dimen156
@@ -642,12 +642,12 @@ Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
 (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/array.sty
 Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \col@sep=\dimen165
-\ar@mcellbox=\box73
+\ar@mcellbox=\box74
 \extrarowheight=\dimen166
 \NC@list=\toks20
 \extratabsurround=\skip64
 \backup@length=\skip65
-\ar@cellbox=\box74
+\ar@cellbox=\box75
 )
 \TX@col@width=\dimen167
 \TX@old@table=\dimen168
@@ -728,7 +728,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count270
 \scratchdimen=\dimen172
-\scratchbox=\box75
+\scratchbox=\box76
 \nofMPsegments=\count271
 \nofMParguments=\count272
 \everyMPshowfont=\toks22
@@ -738,7 +738,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 \makeMPintoPDFobject=\count275
 \everyMPtoPDFconversion=\toks23
 )
-\AtBeginShipoutBox=\box76
+\AtBeginShipoutBox=\box77
 Package hyperref Info: Link coloring ON on input line 24.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1049,10 +1049,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 288.
  ) 
 Here is how much of TeX's memory you used:
- 16981 strings out of 492623
- 296566 string characters out of 6129552
- 370564 words of memory out of 5000000
- 20779 multiletter control sequences out of 15000+600000
+ 17022 strings out of 492616
+ 297514 string characters out of 6129482
+ 371488 words of memory out of 5000000
+ 20827 multiletter control sequences out of 15000+600000
  577890 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,11n,65p,499b,377s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1063,7 +1063,7 @@ ive/2019/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/local/texlive/2019
 /texmf-dist/fonts/type1/public/bera/fvsb8a.pfb></usr/local/texlive/2019/texmf-d
 ist/fonts/type1/public/bera/fvsr8a.pfb></usr/local/texlive/2019/texmf-dist/font
 s/type1/public/bera/fvsro8a.pfb>
-Output written on LeddaM_cv.pdf (5 pages, 53309 bytes).
+Output written on LeddaM_cv.pdf (5 pages, 53282 bytes).
 PDF statistics:
  66 PDF objects out of 1000 (max. 8388607)
  52 compressed objects within 1 object stream
