@@ -1,13 +1,13 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  14 JUN 2019 10:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.7.30)  30 JUL 2019 12:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **LeddaM_cv.tex
 (./LeddaM_cv.tex
 LaTeX2e <2018-12-01>
-(./CV.cls (/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
+(./CV.cls (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/size10.clo
+(/usr/share/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -22,15 +22,15 @@ File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks14
 \ex@=\dimen103
 ))
-(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/multicol.sty
+(/usr/share/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
 \c@tracingmulticols=\count88
 \mult@box=\box27
@@ -79,7 +79,7 @@ Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
 \colbreak@box=\box52
 \mc@col@check@num=\count96
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/enumitem/enumitem.sty
+(/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/02/04 v3.8 Customized lists
 \enitkv@toks@=\toks15
 \labelindent=\skip45
@@ -89,17 +89,17 @@ Package: enumitem 2019/02/04 v3.8 Customized lists
 \enit@count@id=\count97
 \enitdp@description=\count98
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/tabto-ltx/tabto.sty
+(/usr/share/texmf-dist/tex/latex/tabto-ltx/tabto.sty
 Package: tabto 2018/12/28  v 1.4  Another tabbing mechanism
 \CurrentLineWidth=\dimen114
 \TabPrevPos=\dimen115
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2019-05-07 L3 programming layer (loader) 
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2019-04-06 L3 programming layer (loader) 
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2019-05-07 L3 programming layer (code)
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2019-04-06 L3 programming layer (code)
 \c_max_int=\count99
 \l_tmpa_int=\count100
 \l_tmpb_int=\count101
@@ -250,32 +250,31 @@ Package: expl3 2019-05-07 L3 programming layer (code)
 \l__seq_internal_b_int=\count183
 \c__deprecation_minus_one=\count184
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+(/usr/share/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2019-04-06 v L3 Experimental driver: PDF mode
 \l__driver_color_stack_int=\count185
-\l__driver_pdf_tmp_box=\box72
 ))
-Package: xparse 2019-05-03 L3 Experimental document command parser
+Package: xparse 2019-03-05 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count186
 \g__xparse_grabber_int=\count187
 \l__xparse_m_args_int=\count188
 \l__xparse_v_nesting_int=\count189
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count190
@@ -291,7 +290,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen155
 \Gm@dimlist=\toks18
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+(/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip52
@@ -304,20 +303,20 @@ s
 \f@nch@O@olf=\skip59
 \f@nch@O@orf=\skip60
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lastpage/lastpage.sty
+(/usr/share/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/bera/bera.sty
+(/usr/share/texmf-dist/tex/latex/bera/bera.sty
 Package: bera 2004/01/31 (WaS)
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/t1enc.def
+(/usr/share/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/textcomp.sty
+(/usr/share/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -332,12 +331,12 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1enc.def
+(/usr/share/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1enc.dfu
+(/usr/share/texmf-dist/tex/latex/base/ts1enc.dfu
 File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -474,31 +473,31 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/bera/beraserif.sty
+(/usr/share/texmf-dist/tex/latex/bera/beraserif.sty
 Package: beraserif 2004/01/30 (WaS)
 LaTeX Font Info:    Try loading font information for T1+fve on input line 30.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/bera/t1fve.fd
+(/usr/share/texmf-dist/tex/latex/bera/t1fve.fd
 File: t1fve.fd 2004/09/07 scalable font definitions for T1/fve.
 )
 LaTeX Font Info:    Font shape `T1/fve/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 30.
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/bera/berasans.sty
+(/usr/share/texmf-dist/tex/latex/bera/berasans.sty
 Package: berasans 2004/01/30 (WaS)
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/bera/beramono.sty
+(/usr/share/texmf-dist/tex/latex/bera/beramono.sty
 Package: beramono 2004/01/31 (WaS)
 ))
-(/usr/local/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
@@ -511,12 +510,12 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/dvipsnam.def
+(/usr/share/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
-(/usr/local/texlive/2019/texmf-dist/tex/latex/titlesec/titlesec.sty
+(/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box73
+\ttl@box=\box72
 \beforetitleunit=\skip61
 \aftertitleunit=\skip62
 \ttl@plus=\dimen156
@@ -526,14 +525,14 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthlast=\dimen159
 \titlewidthfirst=\dimen160
 ))
-(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
 
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -568,24 +567,24 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
+(/usr/share/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen161
 \Hy@linkcounter=\count193
 \Hy@pagecounter=\count194
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
+(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count195
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/share/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `bookmarks' set `true' on input line 4393.
@@ -600,7 +599,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4772.
 \c@Hy@tempcnt=\count196
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty
+(/usr/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -624,30 +623,30 @@ LaTeX Info: Redefining \pageref on input line 6454.
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
 \Fld@listcount=\count267
 \c@bookmark@seq@number=\count268
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/usr/share/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip63
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/tabularx.sty
+(/usr/share/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+(/usr/share/texmf-dist/tex/latex/tools/array.sty
 Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \col@sep=\dimen165
-\ar@mcellbox=\box74
+\ar@mcellbox=\box73
 \extrarowheight=\dimen166
 \NC@list=\toks20
 \extratabsurround=\skip64
 \backup@length=\skip65
-\ar@cellbox=\box75
+\ar@cellbox=\box74
 )
 \TX@col@width=\dimen167
 \TX@old@table=\dimen168
@@ -656,8 +655,7 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \TX@delta=\dimen171
 \TX@cols=\count269
 \TX@ftn=\toks21
-)
-(./LeddaM_cv.aux)
+) (./LeddaM_cv.aux)
 \openout1 = `LeddaM_cv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -674,14 +672,16 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 24.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Try loading font information for T1+fvs on input line 24.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/bera/t1fvs.fd
+
+(/usr/share/texmf-dist/tex/latex/bera/t1fvs.fd
 File: t1fvs.fd 2004/09/07 scalable font definitions for T1/fvs.
 )
 LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
@@ -724,11 +724,11 @@ LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 24.
-(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count270
 \scratchdimen=\dimen172
-\scratchbox=\box76
+\scratchbox=\box75
 \nofMPsegments=\count271
 \nofMParguments=\count272
 \everyMPshowfont=\toks22
@@ -738,12 +738,12 @@ Package lastpage Info: Please have a look at the pageslts package at
 \makeMPintoPDFobject=\count275
 \everyMPtoPDFconversion=\toks23
 )
-\AtBeginShipoutBox=\box77
+\AtBeginShipoutBox=\box76
 Package hyperref Info: Link coloring ON on input line 24.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+ (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count276
@@ -762,7 +762,7 @@ LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
 (Font)              scaled to size 15.55188pt on input line 31.
 LaTeX Font Info:    Try loading font information for T1+fvm on input line 35.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/bera/t1fvm.fd
+(/usr/share/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
@@ -775,7 +775,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 57.
 LaTeX Font Info:    Try loading font information for TS1+fvs on input line 62.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/bera/ts1fvs.fd
+(/usr/share/texmf-dist/tex/latex/bera/ts1fvs.fd
 File: ts1fvs.fd 2004/09/07 scalable font definitions for TS1/fvs.
 )
 LaTeX Font Info:    Font shape `TS1/fvs/m/n' will be
@@ -823,7 +823,7 @@ LaTeX Font Info:    Font shape `T1/fvs/m/it' will be
 (Font)              scaled to size 8.99994pt on input line 147.
 [1
 
-{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
 (Font)              scaled to size 7.19995pt on input line 148.
 
@@ -1049,21 +1049,20 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 288.
  ) 
 Here is how much of TeX's memory you used:
- 17022 strings out of 492616
- 297514 string characters out of 6129482
- 371488 words of memory out of 5000000
- 20827 multiletter control sequences out of 15000+600000
+ 16981 strings out of 492623
+ 294952 string characters out of 6135669
+ 370564 words of memory out of 5000000
+ 20779 multiletter control sequences out of 15000+600000
  577890 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,11n,65p,499b,377s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
-ive/2019/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/local/texlive/2019
-/texmf-dist/fonts/type1/public/bera/fvsb8a.pfb></usr/local/texlive/2019/texmf-d
-ist/fonts/type1/public/bera/fvsr8a.pfb></usr/local/texlive/2019/texmf-dist/font
-s/type1/public/bera/fvsro8a.pfb>
-Output written on LeddaM_cv.pdf (5 pages, 53282 bytes).
+{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/bera/fvmr8a.p
+fb></usr/share/texmf-dist/fonts/type1/public/bera/fvsb8a.pfb></usr/share/texmf-
+dist/fonts/type1/public/bera/fvsr8a.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/bera/fvsro8a.pfb>
+Output written on LeddaM_cv.pdf (5 pages, 53305 bytes).
 PDF statistics:
  66 PDF objects out of 1000 (max. 8388607)
  52 compressed objects within 1 object stream
