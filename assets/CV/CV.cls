@@ -89,40 +89,36 @@
 \newcommand{\professional}[5]{
 	\textbf{#2} - #3 \hfill \years{#1}\\
 	Supervisor: #4\\
-	#5
-\\\\}
+	#5\\\\}
 
 % Teaching ------
 \DeclareDocumentCommand\teaching{ m m m m m m }{
 		\textbf{#2} - #3 \hfill \years{#1}\\
 		\comment{
 		IOR: #4, Level: #5\\
-		Duties: #6}
-\\\\}
+		Duties: #6\\\\}}
 
 % Award ------
 \newcommand{\award}[4]{
 	\textbf{#2} - #3 \hfill \years{#1}\\
-	\comment{#4}
-\\\\}
+	\comment{#4}\\
+	}
 
 % Membership ------
 \newcommand{\member}[3]{
-	\textbf{#3} - #2 \hfill \years{#1}
-	\medskip
-\\}
+	\textbf{#3} - #2 \hfill \years{#1}\\
+}
 
 % Outreach ------
 \newcommand{\outreach}[3]{
-	\textbf{#2} - #3 \hfill \years{#1}
-	\medskip
-\\}
+	\textbf{#2} - #3 \hfill \years{#1}\\
+	}
 
 % Talks and Posters ------
 \newcommand{\pubTalk}[7]{
 	\textbf{#4} - #5 \hfill \years{#1}\\
-	\pubAuthors{#2}, #3. \hfill \emph{#7}
-\\\\}
+	\pubAuthors{#2}, #3. \hfill \emph{#7}\\
+	}
 
 % Publications ------
 \newcommand{\pubAuthors}[1]{#1}
