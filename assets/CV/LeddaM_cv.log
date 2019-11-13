@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  10 NOV 2019 22:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  13 NOV 2019 09:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -789,11 +789,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--112
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--112
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 126--129
 
  []
@@ -1061,7 +1056,7 @@ Here is how much of TeX's memory you used:
 exlive/2019/texmf-dist/fonts/type1/public/bera/fvsb8a.pfb></usr/local/texlive/2
 019/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb></usr/local/texlive/2019/texm
 f-dist/fonts/type1/public/bera/fvsro8a.pfb>
-Output written on LeddaM_cv.pdf (4 pages, 32128 bytes).
+Output written on LeddaM_cv.pdf (4 pages, 32095 bytes).
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  42 compressed objects within 1 object stream
