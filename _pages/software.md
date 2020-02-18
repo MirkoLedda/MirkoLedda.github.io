@@ -11,7 +11,7 @@ author_profile: false
 <a href="http://ec2-52-52-41-39.us-west-1.compute.amazonaws.com/">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/software/PolyOligo.png" alt="PolyOligo">
   
-Design oligos for PCR and PCR-based genotyping (CAPS, KASP, HRM) assays in complex genomes ([github link](https://github.com/MirkoLedda/polyoligo)).
+Design oligos for PCR and PCR-based genotyping (CAPS, KASP, HRM) assays in complex genomes.
 
 ## *patteRNA*
 <a href="https://github.com/AviranLab/patteRNA">
